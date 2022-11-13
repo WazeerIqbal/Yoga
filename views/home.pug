@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts 
+    scripts(src='/static/index.js')
+
+
+block style 
+  style 
+    include ../static/style.css
+
+block content  
+  section#introSection
+    div  It is a long established fact that a reader will be distracted  
+    div.belowInter  by the readable content.
+    
+  section#ourMission
+    h3 Our Objectives
+      
+    p.obj Our Objective 1   
+      img(src="/static/a.jpg", alt="") 
+    p.obj Our Objective 2
+      img(src="/static/b.jpg", alt="")
+    p.obj Our Objective 3
+      img(src="/static/c.jpg", alt="")
+  section#middleSection
+    h3 Our Middle Section
+    div#sponsorsSection
+      img(src="/static/Logo1.jpg", alt="Logo" class="sponsor1")
+      img(src="/static/Logo2.jpg", alt="Logo" class="sponsor1")
+      img(src="/static/Logo3.png", alt="Logo" class="sponsor1")
+      img(src="/static/Logo4.jpg", alt="Logo" class="sponsor1")

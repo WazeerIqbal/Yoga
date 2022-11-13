@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    border: 3px solid black;
+    
+    background-color: #68000c;
+    
+    
+
+    
+
+}
+#navbar img{ 
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    filter: invert();
+    cursor: pointer;
+    
+}
+
+#navbar ul{
+    display: flex;
+    margin-left:15px ;
+    padding: 5px;
+    align-items: center;
+    
+    
+    
+    
+
+}
+#navbar li{
+    list-style: none;
+    padding: 25px;
+    font-size: 1.5rem;
+    
+    
+
+    
+}
+#navbar li a{
+    
+    text-decoration: none;
+    color: white;
+}
+#introSection{
+    background: url('static/yogabg.jpg') center/cover no-repeat;
+    border: 2px solid green;
+    height: 500px;
+    
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    color: crimson;
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#ourMission{
+    
+    margin: 80px auto;
+    display: block;
+    width: 75%; 
+
+
+}
+#ourMission h3{
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 30px;
+
+    
+}
+.obj{
+    border: 2px solid black;
+    margin: 25px 33.33px;
+    padding: 20px 0px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    
+    
+    
+
+}
+
+.obj img{
+    width: 200px;
+    height:200px;
+    /* height: inherit; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.belowInter{
+    font-size: 1.5rem;
+}
+    
+#middleSection{
+    border: 2px solid green;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 2rem;
+    flex-direction: column;
+    background-color: darkslateblue;
+
+}
+#middleSection h3{
+    margin-top: 50px;
+
+}
+
+#sponsorsSection{
+    height: 240px;
+    margin: auto;
+    max-width: 1000px;
+}
+    
+    
+
+.sponsor1{
+    height: 99px;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+#footersection{
+    height: 60px;
+    display: flex;
+    /* align-items: center;  It center the element from the vertical direction */
+    align-items: center; 
+    /* justify-content: center; It center the element from the Horizontal directio*/
+    justify-content: center;
+    color: white;
+    background: black;
+    font-size: 22px;
+}

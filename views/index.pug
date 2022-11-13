@@ -1,0 +1,46 @@
+//- index.pug
+doctype html
+html
+  head
+    title Best Yoga Ever
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        img(src="/static/main-logo.jpg", alt="Not Loaded")
+        li #[a(href="/") Home] 
+        li #[a(href="/") About us]  
+        li #[a(href="/") Contact] 
+        li #[a(href="/") Services] 
+        li #[a(href="/") MemeberShip] 
+    
+    section#introSection
+      div  It is a long established fact that a reader will be distracted  
+      div.belowInter  by the readable content.
+    
+    section#ourMission
+      h3 Our Objectives
+      
+      p.obj Our Objective 1   
+        img(src="/static/a.jpg", alt="") 
+      p.obj Our Objective 2
+        img(src="/static/b.jpg", alt="")
+      p.obj Our Objective 3
+        img(src="/static/c.jpg", alt="")
+    section#middleSection
+      h3 Our Middle Section
+      div#sponsorsSection
+        img(src="/static/Logo1.jpg", alt="Logo" class="sponsor1")
+        img(src="/static/Logo2.jpg", alt="Logo" class="sponsor1")
+        img(src="/static/Logo3.png", alt="Logo" class="sponsor1")
+        img(src="/static/Logo4.jpg", alt="Logo" class="sponsor1")
+         
+      
+
+    footer#footersection
+      | Hi I'm a footor Section | Copy right 2022  
+
+    scripts 
+        
+      include ../static/index.js

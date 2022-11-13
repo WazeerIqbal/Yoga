@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Best Yoga Ever
+    //- Script part is the part Which we write Itself
+    block scripts
+    //- Style part is the part which we write Itself
+    block style 
+  body
+    //- So Naver bar is the part of template it is present in every page
+    nav#navbar
+      ul
+        img(src="/static/main-logo.jpg", alt="Not Loadeds")
+        li #[a(href="/") Home] 
+        li #[a(href="/") About us]  
+        li #[a(href="/") Services] 
+        li #[a(href="/") MemeberShip]
+        li #[a(href="/contact") Contact] 
+        
+
+    //- Content Part is the part which we Design by itself
+    block content 
+    //- Footer is the part of template It's mean it is present in every page 
+    footer#footersection
+         | Hi I'm a footor Section | Copy right 2022
+      
